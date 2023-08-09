@@ -1,0 +1,1 @@
+# CLI-wether-forecast-widget
