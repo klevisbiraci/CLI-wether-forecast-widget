@@ -1,8 +1,8 @@
 # CLI-wether-forecast-widget
-##requirements:
--python version 3+
--curses module
--dotenv
-you can use pip to install both
+##requirements:\n
+-python version 3+\n
+-curses module\n
+-dotenv\n
+you can use pip to install both\n
 ##screenshots:
 
