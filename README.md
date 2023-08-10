@@ -5,11 +5,22 @@ Link for the api documentation: www.meteosource.com/documentation.
 
 ## requirements:
 
-- python version 3+
+- python version 3.11.4
 - curses module
 - dotenv module
 
 you can use pip to install both the modules
+
+## setup:
+you can use pyinstaller to create an executable just make sure you install the required modules first.
+Modules should be available globally.
+```
+pip install pyinstaller
+pyinstaller /path/to/main.py
+```
+the executable should be in the dist directory
+
+note: the terminal font should 10 or smaller  
 
 ## screenshots:
 - current wether feature
