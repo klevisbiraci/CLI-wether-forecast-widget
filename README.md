@@ -20,7 +20,7 @@ pyinstaller /path/to/main.py
 ```
 the executable should be in the dist directory
 
-note: the terminal font should 10 or smaller  
+note: the terminal font size should be 10 or smaller  
 
 ## screenshots:
 - current wether feature
