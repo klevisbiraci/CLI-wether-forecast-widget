@@ -197,6 +197,7 @@ if args.current:
 #using the curses module to place the information on the screen
   def currentWether(stdscr):
     curses.curs_set(0)
+    curses.use_default_colors()
     stdscr.clear()
 
     newLine = 1
@@ -255,6 +256,7 @@ elif args.hourly:
 
   def hourlyWether(stdscr):
     curses.curs_set(0)
+    curses.use_default_colors()
     stdscr.clear()
 
     newLine = 1
@@ -327,6 +329,7 @@ elif args.daily:
 
   def weeklyWether(stdscr):
     curses.curs_set(0)
+    curses.use_default_colors()
 
     stdscr.nodelay(True)
     stdscr.clear()
